@@ -1,11 +1,14 @@
-title: Meteorsfallen's Blog
+title: Your awesome title
 author:
-  name: Meteorsfallen
+  name: GitHub User
+  email: your-email@domain.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  欢迎来到我的博客，这里记录了我在编程道路上的点点滴滴！
+  Write an awesome description for your new site here. You can edit this line
+  in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
 
 # Build settings
 
@@ -16,6 +19,8 @@ plugins:
   - jekyll-seo-tag
 
 # Theme-specific settings
+
+minima:
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #
